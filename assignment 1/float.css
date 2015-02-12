@@ -1,0 +1,14 @@
+.wrapper {
+    width: 800px;
+    margin: auto
+}
+.padded {
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+#header { width: 760px; }
+#content { width: 158px; float: right; }
+#sidebar { width: 558px; float: left; }
+#footer { width: 758px; clear: both;}
