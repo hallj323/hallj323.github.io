@@ -1,0 +1,31 @@
+.wrapper {
+    width: 800px;
+    margin: auto
+}
+.padded {
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+#header { 
+    width: 800px;
+    margin: 10px;
+    padding: 10px;    
+}
+
+#content1 { 
+    width: 222.6px; 
+    float: left;
+    margin: 10px;
+    height: 0px;
+}
+#footer { 
+    width: 800px; 
+    clear: both;
+    margin: 10px
+    padding: 10px;
+    height: 1px;
+    
+}
+
