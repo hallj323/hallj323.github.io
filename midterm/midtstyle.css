@@ -16,7 +16,7 @@ h2 {
 }
 
 .wrapper {
-    width: 0px;
+    max-width: 300px;
     background: transparent;
     margin: auto;
     padding: 20px;
