@@ -1,0 +1,51 @@
+body {
+    background: url(yup.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    color: tan;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.wrapper {
+    width: 0px;
+    background: transparent;
+    margin: auto;
+    padding: 20px;
+}
+
+.ni12 {
+    color: black;
+    
+}
+
+.ni34 {
+    color: tan;
+    
+}
+
+#page {
+    
+}
+
+
+.padded {
+    object-position: bottom;
+    border: 0px solid white;
+}
+
+#header { 
+    width: 446px;
+    height: 103px;
+     position: relative;
+     position:absolute; bottom: 0;
+}
+
