@@ -1,5 +1,5 @@
 body {
-    background: url(yup3.jpg);
+    background: url(y01.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
@@ -49,3 +49,61 @@ h2 {
      position:absolute; bottom: 0;
 }
 
+.h1l {  
+  position: relative;
+  top: 100px;
+  left: 30px;
+  background-color: transparent;
+    font-size: 40px;
+  width: 230px;
+    height: 60px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Oswald', sans-serif; 
+     text-decoration: none
+
+}
+
+.h2l {  
+  position: relative;
+  top: 100px;
+  left: 30px;
+  background-color: transparent;
+    font-size: 25px;
+  width: 350px;
+    height: 300px;
+    font-weight: normal;
+    color: White;
+    font-family: 'Oswald', sans-serif; 
+     text-decoration: none
+
+}
+
+
+.h1r {  
+  position: relative;
+  top: -250px;
+  left: 870px;
+  background-color: transparent;
+    font-size: 40px;
+  width: 330px;
+    height: 60px;
+    font-weight: bold;
+    color: White;
+    font-family: 'Oswald', sans-serif; 
+
+}
+
+.h2r {  
+  position: relative;
+  top: -250px;
+  left: 870px;
+  background-color: transparent;
+    font-size: 25px;
+  width: 350px;
+    height: 300px;
+    font-weight: normal;
+    color: White;
+    font-family: 'Oswald', sans-serif; 
+
+}
