@@ -1,0 +1,33 @@
+.item { background-color: pink;
+
+}
+
+
+.day {font-size: 100px; 
+
+
+}
+
+.awesome {
+    font-size: 100px;
+    color: grey;
+
+}
+
+.sad {
+    font-size: 100px;
+    color: pink;
+    
+
+}
+
+#nameText {
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+#foodText {
+    font-style: italic;
+    font-family:sans-serif;
+}
