@@ -1,0 +1,66 @@
+<!doctype html>
+<html  lang="">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+       
+		<script src='main.js'></script>
+      
+    </head>
+    <body>
+        
+        
+        <div id="questions" align="center">
+        <h1>FILL OUT THE FOLLOWING FOR YA BOY!</h1>
+        <hr>
+        <form role="form">
+            <div class="form-group">
+            <label for="fname">Full Name:</label>
+            <input for="fname" class="form-control fname" type="text" placeholder="Enter your full name..">
+          </div>
+          <div class="form-group">
+            <label for="wyfrom">Where Your From:</label>
+            <input for="wyfrom" class="form-control wyfrom" type="text" placeholder="Enter where your from..">
+          </div>
+          <div class="form-group">
+            <label for="ycool">Age You Realized You We're Cool: </label>
+            <input for="ycool" class="form-control ycool" type="text" placeholder="Enter how old you we're when you realized you we're cool ..">
+          </div>
+          <div class="form-group">
+            <label for="dhome">Dream Home:</label>
+            <input id="dhome" class="form-control dhome" type="text" placeholder="Enter your type of dream home..">
+          </div>
+          <div class="form-group">
+            <label for="fcolor">Favorite Color:</label>
+            <input id="fcolor" class="form-control fcolor" type="text" placeholder="Enter your favorite color..">
+          </div>
+          <div class="form-group">
+            <label for="fcar">Favorite Car:</label>
+            <input id="fcar" class="form-control fcar" type="text" placeholder="Enter your favorite car...">
+          </div>
+          <div class="form-group">
+            <label for="dcity">Dream City:</label>
+            <input id="dcity" class="form-control dcity" type="text" placeholder="Enter the city of your dremas..">
+          </div>
+          <div>
+          </div>
+        </form>
+        <button id="ajaxrequest" type="submit" class="submitclass">Create Madlib</button>
+            
+        <hr>
+      </div>
+    
+        <div id="story" align="center">
+            <h1>Madlib Story</h1>
+            <h2>Hello <span class="fname"></span>, I was told from my friend that when you guys met in your hometown, <span class="wyfrom"></span>, that you guys had a lot in common. You both shared the experience at age <span class="ycool"></span> how you had a dream about being a billionaire. You had a <span class="fcolor"></span>-colored <span class="dhome"></span> with a <span class="fcolor"></span> <span class="fcar"></span>. However, that got stolen in a jewel height by a gang of life-size action figures. These action figures terrorized <span class="dcity"></span> and the goverment had to get involved. Anyway, good speaking to you!</h2></div>
+        
+    </body>
+</html>

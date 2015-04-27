@@ -1,0 +1,87 @@
+.ball {
+	width: 200px;
+	height: 200px;
+    background-color: pink;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    position: absolute;
+    
+    -webkit-animation-name: square-to-circle;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.395, 0.945, 1.000, 0);;
+    -webkit-animation-direction: alternate;
+    
+    border-radius: 0%;
+}
+
+
+@-webkit-keyframes square-to-circle {
+    0% {
+        border-radius: 0%;
+        background-color: magenta;
+        transform: rotate(0deg);
+    }
+    25%{
+        border-radius: 500% 0% 0% 0%;
+        background-color: gold;
+    }
+    50%{
+        border-radius: 750% 1000% 0% 0%;
+        background-color: grey;
+    }
+    75%{
+        border-radius: 900% 100% 1000% 0%;
+        background-color: blue; 
+    }
+    100% {
+        border-radius: 100% 100% 0% 100%;
+        background-color: teal;
+        transform: rotate(360deg);
+    }
+}
+
+.ball2 {
+	width: 200px;
+	height: 200px;
+    background-color: pink;
+    top: calc(40% - 100px);
+    left: calc(30% - 100px);
+    position: absolute;
+    
+    border-radius: 0%;
+}
+
+@-webkit-keyframes square-to-circle {
+    0% {
+        border-radius: 0%;
+        left: 0%; top: 0%;
+    }
+    25%{
+        border-radius: 100%;
+        background-color: gold;
+    }
+    50%{
+        border-radius: 100%;
+        background-color: grey;
+    }
+    75%{
+        border-radius: 100%;
+        
+    }
+    100% {
+        border-radius: 100%;
+        background-color: teal;
+        left: 100%; top: 100%;
+    }
+}
+
+.animate{
+     -webkit-animation-name: square-to-circle;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+}
