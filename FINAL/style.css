@@ -135,6 +135,8 @@ nav:hover .nav-list {
     position: relative;
     top: 0px;
     left: -40px;
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
     
 }
 
@@ -181,6 +183,7 @@ nav:hover .nav-list {
     position: absolute;
     top: -100%;
     left: 0%;
+    
     
 }
 
