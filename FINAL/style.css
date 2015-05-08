@@ -267,6 +267,15 @@ nav:hover .nav-list {
     -webkit-box-shadow: 0 0 30px 5px #999;
 }
 
+/* text content */
+
+.a1bigtext {
+    position: absolute;
+    top: 92%;
+    left: 16%;
+    font-size: 25px
+}
+
 /* footer */
 
 h1 {
