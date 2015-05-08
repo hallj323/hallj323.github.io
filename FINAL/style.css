@@ -4,7 +4,7 @@ html {
    
 }
 
-/* border */
+/* border 
 
 .border {
 	width: 100%;
@@ -49,6 +49,8 @@ html {
         
     }
 }
+
+*/
 
 
 /* search bar - begin */
@@ -191,6 +193,8 @@ nav:hover .nav-list {
     left: 15.4%;
     max-width:50%;
     margin:0 auto 0 auto;
+   -moz-box-shadow: 0 0 30px 5px #999;
+-webkit-box-shadow: 0 0 30px 5px #999;
 }
 
 .lead {
@@ -209,6 +213,8 @@ nav:hover .nav-list {
     padding: 1px;
     border:2px solid green;
     background:#ffffff; 
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
 }
 
 .a3 {
@@ -221,6 +227,8 @@ nav:hover .nav-list {
     padding: 1px;
     border:2px solid lightcoral;
     background:#ffffff; 
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
 }
 
 .a4 {
@@ -233,6 +241,8 @@ nav:hover .nav-list {
     border:2px solid orange;
     background:#ffffff; 
     margin-bottom: 520px;
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
 }
 
 /* footer */
