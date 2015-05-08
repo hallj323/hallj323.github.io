@@ -55,22 +55,24 @@ html {
 
 /* search bar - begin */
 input[type="form"] {
-    border: 0;
-    border-bottom: 1px solid #333;
+    
+    border: 11px solid gold;
     width: 310px;
     font-family: 'Montserrat', sans-serif;
     color: teal;
     text-transform: uppercase;
     letter-spacing: 2px;
     
+    
 }
 
 ::-webkit-input-placeholder {
     font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: grey;
     font-family: 'Montserrat', sans-serif;
+    background-color: gold;
 }
 
 form {
