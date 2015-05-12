@@ -517,3 +517,916 @@ h1 {
     float: right;
     padding: 5px;
 }
+
+/********************* media query ipad ******************************/
+
+@media (max-width:768px) {
+ 
+    html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+   
+}
+
+
+/* search bar - begin */
+
+
+input[type="form"] {
+    
+    border: 11px solid gold;
+    width: 310px;
+    font-family: 'Montserrat', sans-serif;
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    
+}
+
+::-webkit-input-placeholder {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: silver;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.searchbutton {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+form {
+    width:200px;
+    margin:10px auto;
+    top: -1%;
+    left: 81%;
+    position: absolute;
+    margin: 10px;
+    
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    padding:6px 15px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+/* search bar - END */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: gold; 
+    width: 87%; 
+	margin-left:9%;
+	margin-right: 9%;
+}
+
+
+    
+#rwdnavbar {
+    float: left;
+    width: 84.5%;
+    height: 10%;
+    font-size: 20.4px;
+    text-align: left;
+    background-color: black;
+    display: inline;
+    margin: 0px;
+    padding: 1px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1005;
+    text-decoration: none;
+}
+    
+#rwdnavbar li {
+    display: inline;
+    padding: 9px;
+    text-decoration: none;
+    
+}
+
+.music {
+    color: gold;
+    text-decoration: none;
+}
+
+.art {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.culture {
+    color: red;
+    text-decoration: none;
+}
+
+.style {
+    color: silver;
+    text-decoration: none;
+}
+
+.sports {
+    color: green;
+    text-decoration: none;
+}
+
+
+#nbl {
+    float: left;
+    width: 140px;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    z-index: 3000;
+}
+
+
+/* content */
+.writeup {
+    position: relative;
+}
+
+
+h6 {
+    font-size: 15px;
+    font-style: oblique;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 48%;
+    left: 65.5%;
+}
+    
+h5 {
+    width: 95.5%;
+    font-size: 35px;
+}
+
+
+.writeup {
+    position: absolute;
+    top: 77%;
+    left: 5.5%;
+    font-size: 20px;
+    color: black;
+    width: 94.3%
+    
+}
+
+.a1 {
+    position: absolute;
+    top: 26%;
+    left: 5.6%;
+    width: 90%;
+    margin:0 auto 0 auto;
+    opacity: 10;
+}
+
+.lead {
+    max-width: 100%;
+    max-height: 100%;
+    border:2px solid black;
+}
+
+.a2 {
+    position: absolute;
+    top: 326%;
+    left: 5.4%;
+    min-width:29.7%;
+    min-height:40%;
+    margin:0 auto 0 auto;
+    background: gold;
+    min-width:29.7%;
+    min-height:23%;
+  /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a2image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border:2px solid red;
+}
+
+.a3 {
+    position: absolute;
+    top: 326%;
+    left: 35.7%;
+    width:32%;
+    height:24%;
+    margin:0 auto 0 auto;
+    padding: 1px;
+    background: gold; 
+    /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a3image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border:2px solid lightskyblue;
+}
+
+.a4 {
+    position: absolute;
+    top: 326%;
+    left: 68.7%;
+    width:30%;
+    height:23%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a4image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}
+
+.a5 {
+    position: absolute;
+    top: 228%;
+    left: 11.7%;
+    width:80%;
+    height:59.5%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a5image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}    
+
+.a7 {
+    position: absolute;
+    top: 165%;
+    left: 11.7%;
+    width:80%;
+    height:59.5%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a7image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}        
+    
+.a8 {
+    position: absolute;
+    top: 105%;
+    left: 11.7%;
+    width:80%;
+    height:59.5%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a8image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}    
+    
+h3 {
+    position: absolute;
+    top: 314%;
+    left: 5.5%;
+    font-size: 150%;
+    border: 2px solid black;
+    background-color: black;
+    color: gold;
+    width: 93.2%;
+    padding: 5px;
+}
+
+/* text content */
+
+.a1text {
+    position: fixed;
+    top: 82%;
+    left: 16%;
+    float: left;
+    font-size: 20px;
+    z-index: 1002;
+    color: red;
+    border: 2px solid red;
+    padding: 2px;
+    display: inline-block;
+}
+
+/* footer */
+
+h1 {
+    font-size: 170%;
+    position: absolute;
+    left: 33%;
+    top: 15%;
+}
+
+.searchbutton {
+    position: absolute;
+    top: 373%;
+    left: 41%;
+}
+
+.searchbutton2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.submitbutton {
+    position: absolute;
+    top: 70%;
+    left: 49.6%;
+}
+
+
+.footerbox {
+    position: absolute;
+     top: 360%;
+    left: 0%;
+    width: 100%;
+    height: 32%;
+    background: black;
+}
+
+.footerlinks {
+    position: absolute;    
+    text-align: left;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    padding: 10px;
+}
+
+#footlinks li {
+    display: inline;
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.footerlinks a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.footerlinks li:a:hover {
+    background-color: blue;
+}
+
+
+.footernavlist a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    padding: -65px;
+}
+
+.footernavlist a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.footernavlist li:a:hover {
+    background-color: blue;
+}
+
+.footernavlist {
+    position: absolute;    
+    text-align: left;
+    width: 7%;
+    top: -8%;
+    left: 88%;
+    float: right;
+    padding: 5px;
+}
+
+h8 {
+    font-size: 100%;
+    position: absolute;
+    width: 25%;
+    top: 269%;
+    left: 42%;
+    background-color: black;
+    color: gold;
+    padding: 10px
+}
+    
+.signupnews {
+    position: absolute;
+    z-index: 2001;
+    top: 365%;
+    left: 35%;
+    color: gold;
+    font-size: 20px;
+    border: 2px solid gold;
+    padding: 5px;
+
+}
+    
+/******************************************************************************************************************************************************************/
+
+/*mobile portrait*/
+	
+@media(max-width:415px) {
+    html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+   
+}
+
+
+/* search bar - begin */
+
+
+input[type="form"] {
+    
+    border: 11px solid gold;
+    width: 310px;
+    font-family: 'Montserrat', sans-serif;
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    
+}
+
+::-webkit-input-placeholder {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: silver;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.searchbutton {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+form {
+    width:200px;
+    margin:10px auto;
+    top: -132%;
+    left: 101%;
+    position: absolute;
+    margin: 10px;
+    
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    padding:6px 15px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+/* search bar - END */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: gold; 
+    width: 87%; 
+	margin-left:9%;
+	margin-right: 9%;
+}
+
+
+    
+
+#rwdnavbar {
+    float: left;
+    width: 90.5%;
+    height: 10%;
+    font-size: 15.4px;
+    text-align: center;
+    background-color: black;
+    display: inline;
+    margin: 0px;
+   
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    z-index: 1005;
+    text-decoration: none;
+}
+    
+#rwdnavbar li {
+    display: inline;
+    text-align: left;
+    padding: -180px;
+    text-decoration: none;
+    position: relative;
+    width: 250%;
+    height: 1%;
+    top: -26%;
+    left: -18%;
+}
+.music {
+    color: gold;
+    text-decoration: none;
+}
+
+.art {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.culture {
+    color: red;
+    text-decoration: none;
+}
+
+.style {
+    color: silver;
+    text-decoration: none;
+}
+
+.sports {
+    color: green;
+    text-decoration: none;
+}
+
+
+#nbl {
+    float: left;
+    width: 120px;
+    position: absolute;
+    top: -150%;
+    left: 29%;
+    z-index: 3000;
+}
+
+
+/* content */
+.writeup {
+    position: relative;
+}
+
+
+h6 {
+    font-size: 15px;
+    font-style: oblique;
+    width: 60%;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 53%;
+    left: 35.5%;
+}
+    
+h5 {
+    width: 95.5%;
+    font-size: 25px;
+}
+
+h7 {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 94%;
+    font-size: 13px;
+}
+
+.writeup {
+    position: absolute;
+    top: 53%;
+    left: 5.5%;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.a1 {
+    position: absolute;
+    top: 27%;
+    left: 5.6%;
+    width: 90%;
+    margin:0 auto 0 auto;
+    opacity: 10;
+}
+
+.lead {
+    max-width: 100%;
+    max-height: 100%;
+    border:2px solid black;
+}
+
+.a2 {
+    position: absolute;
+    top: 235%;
+    left: 5.4%;
+    min-width:29.7%;
+    min-height:40%;
+    margin:0 auto 0 auto;
+    background: gold;
+    min-width:29.7%;
+    min-height:13%;
+  /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a2image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border:2px solid red;
+}
+
+.a3 {
+    position: absolute;
+    top: 235%;
+    left: 35.7%;
+    width:32%;
+    height:13%;
+    margin:0 auto 0 auto;
+    padding: 1px;
+    background: gold; 
+    /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a3image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border:2px solid lightskyblue;
+}
+
+.a4 {
+    position: absolute;
+    top: 235%;
+    left: 69.7%;
+    width:29%;
+    height:12%;
+     
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a4image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}
+
+.a5 {
+    position: absolute;
+    top: 79%;
+    left: 5.6%;
+    width: 90%;
+    margin:0 auto 0 auto;
+    opacity: 10;
+}
+
+.a5image {
+    max-width: 100%;
+    max-height: 100%;
+    border:2px solid black;
+}
+    
+.a7 {
+    position: absolute;
+    top: 119%;
+    left: 5.6%;
+    width: 90%;
+    margin:0 auto 0 auto;
+    opacity: 10;
+}
+
+.a7image {
+    max-width: 100%;
+    max-height: 100%;
+    border:2px solid black;
+}
+
+.a8 {
+    position: absolute;
+    top: 159%;
+    left: 5.6%;
+    width: 90%;
+    height: 34%;
+    margin:0 auto 0 auto;
+    opacity: 10;
+}
+
+.a8image {
+    max-width: 100%;
+    max-height: 100%;
+    border:2px solid black;
+}
+
+h3 {
+    position: absolute;
+    top: 223%;
+    left: 5.5%;
+    font-size: 150%;
+    border: 2px solid black;
+    background-color: black;
+    color: gold;
+    width: 93.2%;
+    padding: 5px;
+}
+
+/* text content */
+
+.a1text {
+    position: fixed;
+    top: 82%;
+    left: 16%;
+    float: left;
+    font-size: 20px;
+    z-index: 1002;
+    color: red;
+    border: 2px solid red;
+    padding: 2px;
+    display: inline-block;
+}
+
+/* footer */
+
+h1 {
+    font-size: 170%;
+    position: absolute;
+    left: 33%;
+    top: 125%;
+}
+
+.searchbutton {
+    position: absolute;
+    top: 268%;
+    left: 32%;
+}
+
+.searchbutton2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.submitbutton {
+    position: absolute;
+    top: 70%;
+    left: 49.6%;
+}
+
+
+.footerbox {
+    position: absolute;
+     top: 250%;
+    left: 0%;
+    width: 100%;
+    height: 32%;
+    background: black;
+}
+
+.footerlinks {
+    position: absolute;    
+    text-align: center;
+    top: 65%;
+    left: 8%;
+    padding: 10px;
+    width: 90%;
+}
+
+.footerlinks li {
+    display: inline;
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    width: 70%;
+}
+
+
+
+.footernavlist a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    padding: -65px;
+    display: inline;
+}
+
+
+.footernavlist {
+    position: absolute;    
+    text-align: left;
+    width: 60%;
+    top: -8%;
+    left: 23%;
+    float: right;
+    padding: 6px;
+}
+    
+.footernavlist li {
+    display: inline;
+}
+
+h8 {
+    font-size: 100%;
+    position: absolute;
+    width: 25%;
+    top: 299%;
+    left: 42%;
+    background-color: black;
+    color: gold;
+    padding: 10px
+}
+    
+.signupnews {
+    position: absolute;
+    z-index: 2000;
+    top: 258%;
+    left: 12%;
+    width: 80%;
+    color: gold;
+    font-size: 20px;
+    border: 2px solid gold;
+    padding: 5px;
+
+}
+    
+
+}
