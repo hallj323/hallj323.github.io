@@ -1,0 +1,519 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+   
+}
+
+/* border 
+
+.border {
+	width: 100%;
+	height: 100%;
+    background-color: lightcoral;
+    top: calc(0%);
+    left: calc(0%);
+    position: absolute;
+    
+    -webkit-animation-name: square;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.395, 0.945, 1.000, 0);;
+    -webkit-animation-direction: alternate;
+    
+    border-radius: 0%;
+}
+
+
+@-webkit-keyframes square {
+    0% {
+        border-radius: 0%;
+        background-color: lightcoral;
+        
+    }
+    25%{
+        border-radius: 0%;
+        background-color: grey;
+    }
+    50%{
+        border-radius:  0%;
+        background-color: lightskyblue;
+    }
+    75%{
+        border-radius:  0%;
+        background-color: green; 
+    }
+    100% {
+        border-radius: 0%;
+        background-color: gold;
+        
+    }
+}
+
+*/
+
+
+/* search bar - begin */
+
+
+input[type="form"] {
+    
+    border: 11px solid gold;
+    width: 310px;
+    font-family: 'Montserrat', sans-serif;
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: silver;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.searchbutton {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+form {
+    width:200px;
+    margin:10px auto;
+    top: -1%;
+    left: 81%;
+    position: absolute;
+    margin: 10px;
+    
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    padding:6px 15px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+/* search bar - END */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: gold; 
+    width: 87%; 
+	margin-left:9%;
+	margin-right: 9%;
+}
+
+nav {
+    position: relative;
+}
+
+.navholder {
+    
+    width: 100%;
+    z-index: 100;
+    height: 0%;
+    float: left;
+    z-index: 0;
+    margin-bottom: 3%;
+}
+
+nav:hover .nav-list {
+    top: 0;
+     max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
+.nav-list {
+    top: 35%;
+    left: 10%;
+    z-index:1;
+    max-height:0;
+    overflow: hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+
+.nav-list li {
+    float: left;
+    width: -6%;
+    font-size: 20.4px;
+    text-align: center;
+    background-image:none;
+    background-color: black;
+    display: block;
+    margin: 0px;
+    padding: 29px;
+    position: relative;
+    top: 0%;
+    left: 10%;
+}
+
+.music {
+    color: gold;
+}
+
+.art {
+    color: lightskyblue;
+}
+
+.culture {
+    color: red;
+}
+
+.style {
+    color: silver;
+}
+
+.sports {
+    color: green;
+}
+
+.sports li:a:hover {
+    color: red;
+}
+
+.nav-list li:first-child {
+    background: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+
+.nav-list li:a:hover {
+    background-color: gold;
+}
+
+#nbl {
+    float: left;
+    width: 140px;
+    position: absolute;
+    top: -10%;
+    left: 43%;
+    
+}
+
+
+/* content */
+
+h5 {
+    font-size: 45px;
+    background-color: black;
+    color: gold;
+    width: 174%;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 15px;
+    font-style: oblique;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 144%
+}
+
+h7 {
+    padding: 80px;
+    width: 100%;
+    position: absolute;
+    top: 54%;
+}
+
+.writeup {
+    position: absolute;
+    top: 115%;
+    left: 5.5%;
+    font-size: 20px;
+    color: black;
+}
+
+.a1 {
+    position: absolute;
+    top: 26%;
+    left: 5.6%;
+    width: 90%;
+    margin:0 auto 0 auto;
+    opacity: 10;
+}
+
+.lead {
+    max-width: 100%;
+    max-height: 100%;
+    border:2px solid black;
+}
+
+.a2 {
+    position: absolute;
+    top: 466%;
+    left: 5.4%;
+    min-width:29.7%;
+    min-height:40%;
+    margin:0 auto 0 auto;
+    background: gold;
+    min-width:29.7%;
+    min-height:40%;
+  /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a2image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border:2px solid red;
+}
+
+.a3 {
+    position: absolute;
+    top: 466%;
+    left: 35.7%;
+    width:32%;
+    height:39%;
+    margin:0 auto 0 auto;
+    padding: 1px;
+    background: gold; 
+    /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a3image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border:2px solid lightskyblue;
+}
+
+.a4 {
+    position: absolute;
+    top: 467%;
+    left: 68.7%;
+    width:30%;
+    height:45%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a4image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}
+
+.a5 {
+    position: absolute;
+    top: 150%;
+    left: 11.7%;
+    width:80%;
+    height:97.5%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a5image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}
+.a7 {
+    position: absolute;
+    top: 250%;
+    left: 11.7%;
+    width:80%;
+    height:97.5%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a7image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}
+
+.a8 {
+    position: absolute;
+    top: 350%;
+    left: 11.7%;
+    width:80%;
+    height:97.5%;
+    background: gold; 
+   /* -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999; */
+}
+
+.a8image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
+}
+
+h3 {
+    position: absolute;
+    top: 454%;
+    left: 5.5%;
+    font-size: 150%;
+    border: 2px solid black;
+    background-color: black;
+    color: gold;
+    width: 93.2%;
+    padding: 5px;
+}
+
+/* text content */
+
+.a1text {
+    position: fixed;
+    top: 82%;
+    left: 16%;
+    float: left;
+    font-size: 20px;
+    z-index: 1002;
+    color: red;
+    border: 2px solid red;
+    padding: 2px;
+    display: inline-block;
+}
+
+/* footer */
+
+h1 {
+    font-size: 170%;
+    position: absolute;
+    left: 33%;
+    top: 15%;
+}
+
+
+.searchbutton {
+    position: absolute;
+    top: 524%;
+    left: 43%;
+}
+
+.searchbutton2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.submitbutton {
+    position: absolute;
+    top: 70%;
+    left: 49.6%;
+}
+
+
+.footerbox {
+    position: absolute;
+     top: 509%;
+    left: 0%;
+    width: 100%;
+    height: 30%;
+    background: black;
+}
+
+.footerlinks {
+    position: absolute;    
+    text-align: left;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    padding: 10px;
+}
+
+#footlinks li {
+    display: inline;
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footerlinks a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.footerlinks li:a:hover {
+    background-color: blue;
+}
+
+
+.footernavlist a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footernavlist a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.footernavlist li:a:hover {
+    background-color: blue;
+}
+
+.footernavlist {
+    position: absolute;    
+    text-align: left;
+    width: 7%;
+    top: -8%;
+    left: 92%;
+    float: right;
+    padding: 5px;
+}

@@ -3,11 +3,7 @@ html {
     margin: 0px;
    
 }
-
-
-/*_____To get rid of Nav/search button on web view___*/
-
-		@media (min-width: 769px) and (max-width: 2400px) {
+@media (min-width: 769px) and (max-width: 2400px) {
 			
 			div#rwdnavbar  {
 				display: none; 
@@ -28,8 +24,6 @@ input[type="form"] {
     color: teal;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
-    
 }
 
 ::-webkit-input-placeholder {
@@ -176,7 +170,7 @@ nav:hover .nav-list {
 
 
 .nav-list li:a:hover {
-    background-color: blue;
+    background-color: gold;
 }
 
 #nbl {
@@ -191,15 +185,48 @@ nav:hover .nav-list {
 
 /* content */
 
+h5 {
+    font-size: 45px;
+    background-color: black;
+    color: gold;
+    width: 103.5%;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 15px;
+    font-style: oblique;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 62%
+}
+
+h7 {
+    padding: 80px;
+    width: 100%;
+    position: absolute;
+    top: 54%;
+}
+
+.writeup {
+    position: absolute;
+    top: 115%;
+    left: 5.5%;
+    font-size: 20px;
+    color: black;
+}
+
 .a1 {
     position: absolute;
     top: 26%;
-    left: 5.4%;
-    max-width:50%;
+    left: 5.6%;
+    width: 90%;
     margin:0 auto 0 auto;
     opacity: 10;
 }
-
 
 .lead {
     max-width: 100%;
@@ -209,14 +236,14 @@ nav:hover .nav-list {
 
 .a2 {
     position: absolute;
-    top: 26%;
-    left: 59.7%;
+    top: 466%;
+    left: 5.4%;
     min-width:29.7%;
     min-height:40%;
-    max-height: 100%;
-    max-width: 100%;
     margin:0 auto 0 auto;
-    
+    background: gold;
+    min-width:29.7%;
+    min-height:40%;
   /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -225,18 +252,20 @@ nav:hover .nav-list {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
     border:2px solid red;
 }
 
 .a3 {
     position: absolute;
-    top: 93%;
-    left: 5.2%;
-    width:50%;
-    height:61%;
+    top: 466%;
+    left: 35.7%;
+    width:32%;
+    height:39%;
     margin:0 auto 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+    padding: 1px;
+    background: gold; 
     /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -252,12 +281,11 @@ nav:hover .nav-list {
 
 .a4 {
     position: absolute;
-    top: 160%;
-    left: 5.1%;
-    width:50%;
-    height:63%;
-    max-height: 100%;
-    max-width: 100%;
+    top: 467%;
+    left: 68.7%;
+    width:30%;
+    height:45%;
+    background: gold; 
    /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -268,17 +296,16 @@ nav:hover .nav-list {
     max-height: 100%;
     min-width:29.7%;
     min-height:40%;
-    border:2.5px solid black;
+    border: 2.5px solid black;
 }
 
 .a5 {
     position: absolute;
-    top: 70%;
-    left: 59.7%;
-    min-width:38.7%;
-    min-height:71%; 
-    max-height: 100%;
-    max-width: 100%;
+    top: 377%;
+    left: 34.7%;
+    width:40%;
+    height:75%;
+    background: gold; 
    /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -287,26 +314,21 @@ nav:hover .nav-list {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
-    border:2.5px solid green;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
 }
 
-.a6 {
+h3 {
     position: absolute;
-    top: 145%;
-    left: 59.7%;
-    min-width:29.2%;
-    min-height:84%;
-    max-height: 100%;
-    max-width: 100%;
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a6image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid silver;
+    top: 454%;
+    left: 5.5%;
+    font-size: 150%;
+    border: 2px solid black;
+    background-color: black;
+    color: gold;
+    width: 93.2%;
+    padding: 5px;
 }
 
 /* text content */
@@ -327,17 +349,17 @@ nav:hover .nav-list {
 /* footer */
 
 h1 {
-    font-size: 160%;
+    font-size: 170%;
     position: absolute;
-    left: 32%;
-    top: 0%;
+    left: 33%;
+    top: 15%;
 }
 
 
 .searchbutton {
     position: absolute;
-    top: 33%;
-    left: 41%;
+    top: 524%;
+    left: 43%;
 }
 
 .searchbutton2 {
@@ -355,7 +377,7 @@ h1 {
 
 .footerbox {
     position: absolute;
-     top: 249%;
+     top: 509%;
     left: 0%;
     width: 100%;
     height: 30%;
@@ -417,22 +439,11 @@ h1 {
     padding: 5px;
 }
 
-h8 {
-    font-size: 100%;
-    position: absolute;
-    width: 15%;
-    top: 235%;
-    left: 42%;
-    background-color: black;
-    color: gold;
-    padding: 10px
-}
-
 .signupnews {
     position: absolute;
-    z-index: 2001;
-    top: 250%;
-    left: 36%;
+    z-index: 4001;
+    top: 514%;
+    left: 37%;
     color: gold;
     font-size: 24px;
     border: 2px solid gold;
@@ -443,16 +454,12 @@ h8 {
 /********************* media query ipad ******************************/
 
 @media (max-width:768px) {
-    
-    
-    
-html {
+ 
+    html {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
    
 }
-
-
 
 
 /* search bar - begin */
@@ -526,31 +533,20 @@ body {
 	margin-right: 9%;
 }
 
-.navholder {
+
     
-    width: 100%;
-    z-index: 0;
-    height: 0%;
-    float: left;
-    z-index: 2000;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    
-}
 
 #rwdnavbar {
     float: left;
-    width: 84.5%;
-    height: 10%;
-    font-size: 20.4px;
-    text-align: left;
+    width: 90.5%;
+    height: 300%;
+    font-size: 19.4px;
+    text-align: center;
     background-color: black;
-    display: inline;
     margin: 0px;
-    padding: 1px;
+   
     position: absolute;
-    top: 10%;
+    top: 246%;
     left: 5%;
     z-index: 1005;
     text-decoration: none;
@@ -558,9 +554,14 @@ body {
     
 #rwdnavbar li {
     display: inline;
-    padding: 9px;
+    text-align: left;
+    padding: -180px;
     text-decoration: none;
-    
+    position: relative;
+    width: 50%;
+    height: 1%;
+    top: -36%;
+    left: -18%;
 }
 
 .music {
@@ -594,22 +595,58 @@ body {
     width: 140px;
     position: absolute;
     top: 20%;
-    left: 0%;
-    
+    left: -6%;
+    z-index: 3000;
 }
 
 
 /* content */
+.writeup {
+    position: relative;
+}
+
+
+h6 {
+    font-size: 15px;
+    font-style: oblique;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 58%;
+    left: 65.5%;
+}
+    
+h5 {
+    width: 95.5%;
+    font-size: 35px;
+}
+
+h7 {
+    padding: 60px;
+    width: 100%;
+    position: absolute;
+    top: 64%;
+    font-size: 13px;
+}
+
+.writeup {
+    position: absolute;
+    top: 75%;
+    left: 5.5%;
+    font-size: 20px;
+    color: black;
+    
+}
 
 .a1 {
     position: absolute;
-    top: 29%;
-    left: 5.4%;
-    max-width:50%;
+    top: 26%;
+    left: 5.6%;
+    width: 90%;
     margin:0 auto 0 auto;
     opacity: 10;
 }
-
 
 .lead {
     max-width: 100%;
@@ -619,12 +656,14 @@ body {
 
 .a2 {
     position: absolute;
-    top: 29%;
-    left: 59.7%;
+    top: 326%;
+    left: 5.4%;
     min-width:29.7%;
     min-height:40%;
     margin:0 auto 0 auto;
     background: gold;
+    min-width:29.7%;
+    min-height:23%;
   /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -633,16 +672,19 @@ body {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
     border:2px solid red;
 }
 
 .a3 {
     position: absolute;
-    top: 73%;
-    left: 5.2%;
-    width:50%;
-    height:61%;
+    top: 326%;
+    left: 35.7%;
+    width:32%;
+    height:24%;
     margin:0 auto 0 auto;
+    padding: 1px;
     background: gold; 
     /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
@@ -659,10 +701,10 @@ body {
 
 .a4 {
     position: absolute;
-    top: 117%;
-    left: 5.1%;
-    width:50%;
-    height:63%;
+    top: 326%;
+    left: 68.7%;
+    width:30%;
+    height:23%;
     background: gold; 
    /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
@@ -674,15 +716,16 @@ body {
     max-height: 100%;
     min-width:29.7%;
     min-height:40%;
-    border:2.5px solid black;
+    border: 2.5px solid black;
 }
 
 .a5 {
     position: absolute;
-    top: 57%;
-    left: 59.7%;
-    min-width:38.7%;
-    min-height:49%; 
+    top: 267%;
+    left: 34.7%;
+    width:40%;
+    height:45%;
+    background: gold; 
    /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -691,24 +734,21 @@ body {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
-    border:2.5px solid green;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
 }
 
-.a6 {
+h3 {
     position: absolute;
-    top: 108%;
-    left: 59.7%;
-    min-width:29.2%;
-    min-height:84%; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a6image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid silver;
+    top: 314%;
+    left: 5.5%;
+    font-size: 150%;
+    border: 2px solid black;
+    background-color: black;
+    color: gold;
+    width: 93.2%;
+    padding: 5px;
 }
 
 /* text content */
@@ -729,16 +769,15 @@ body {
 /* footer */
 
 h1 {
-    font-size: 160%;
+    font-size: 170%;
     position: absolute;
-    left: 32%;
-    top: 0%;
+    left: 33%;
+    top: 15%;
 }
-
 
 .searchbutton {
     position: absolute;
-    top: 46%;
+    top: 373%;
     left: 41%;
 }
 
@@ -757,7 +796,7 @@ h1 {
 
 .footerbox {
     position: absolute;
-     top: 190%;
+     top: 360%;
     left: 0%;
     width: 100%;
     height: 32%;
@@ -825,7 +864,7 @@ h8 {
     font-size: 100%;
     position: absolute;
     width: 25%;
-    top: 169%;
+    top: 269%;
     left: 42%;
     background-color: black;
     color: gold;
@@ -835,7 +874,7 @@ h8 {
 .signupnews {
     position: absolute;
     z-index: 2001;
-    top: 195%;
+    top: 365%;
     left: 35%;
     color: gold;
     font-size: 20px;
@@ -843,21 +882,17 @@ h8 {
     padding: 5px;
 
 }
-
-    /******************************************************************************************************************************************************************/
+    
+/******************************************************************************************************************************************************************/
 
 /*mobile portrait*/
 	
 @media(max-width:415px) {
-    
-        
-html {
+    html {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
    
 }
-
-
 
 
 /* search bar - begin */
@@ -931,33 +966,21 @@ body {
 	margin-right: 9%;
 }
 
-.navholder {
-    
-    width: 100%;
-    z-index: 100;
-    height: 0%;
-    float: left;
-    z-index: 2000;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    
-}
+
     
 
 #rwdnavbar {
     float: left;
-    width: 90.5%;
-    height: 10%;
-    font-size: 15.4px;
+    width: 104%;
+    height: 300%;
+    font-size: 16.4px;
     text-align: center;
     background-color: black;
-    display: inline;
     margin: 0px;
    
     position: absolute;
-    top: 16%;
-    left: 5%;
+    top: 456%;
+    left: -4%;
     z-index: 1005;
     text-decoration: none;
 }
@@ -968,9 +991,9 @@ body {
     padding: -180px;
     text-decoration: none;
     position: relative;
-    width: 250%;
+    width: 50%;
     height: 1%;
-    top: -26%;
+    top: -36%;
     left: -18%;
 }
 
@@ -1002,25 +1025,61 @@ body {
 
 #nbl {
     float: left;
-    width: 100px;
+    width: 120px;
     position: absolute;
-    top: -80%;
-    left: 41%;
-    
+    top: -150%;
+    left: 29%;
+    z-index: 3000;
 }
 
 
 /* content */
+.writeup {
+    position: relative;
+}
+
+
+h6 {
+    font-size: 15px;
+    font-style: oblique;
+    width: 60%;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 53%;
+    left: 35.5%;
+}
+    
+h5 {
+    width: 95.5%;
+    font-size: 25px;
+}
+
+h7 {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 94%;
+    font-size: 13px;
+}
+
+.writeup {
+    position: absolute;
+    top: 53%;
+    left: 5.5%;
+    font-size: 20px;
+    color: black;
+    
+}
 
 .a1 {
     position: absolute;
-    top: 29%;
-    left: 5.4%;
-    max-width:90%;
+    top: 26%;
+    left: 5.6%;
+    width: 90%;
     margin:0 auto 0 auto;
     opacity: 10;
 }
-
 
 .lead {
     max-width: 100%;
@@ -1030,12 +1089,14 @@ body {
 
 .a2 {
     position: absolute;
-    top: 75%;
+    top: 376%;
     left: 5.4%;
-    min-width:89.7%;
-    min-height:50%;
+    min-width:29.7%;
+    min-height:40%;
     margin:0 auto 0 auto;
-  
+    background: gold;
+    min-width:29.7%;
+    min-height:23%;
   /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -1044,17 +1105,20 @@ body {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
+    min-width:29.7%;
+    min-height:40%;
     border:2px solid red;
 }
 
 .a3 {
     position: absolute;
-    top: 123%;
-    left: 5.4%;
-    width:90%;
-    height:61%;
+    top: 376%;
+    left: 35.7%;
+    width:32%;
+    height:24%;
     margin:0 auto 0 auto;
-   
+    padding: 1px;
+    background: gold; 
     /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -1070,11 +1134,11 @@ body {
 
 .a4 {
     position: absolute;
-    top: 168%;
-    left: 5.1%;
-    width:90%;
-    height:41.7%;
-    
+    top: 376%;
+    left: 69.7%;
+    width:29%;
+    height:12%;
+     
    /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -1085,17 +1149,16 @@ body {
     max-height: 100%;
     min-width:29.7%;
     min-height:40%;
-    border:2.5px solid black;
+    border: 2.5px solid black;
 }
 
 .a5 {
     position: absolute;
-    top: 207%;
-    left: 5.1%;
-    max-height: 100%;
-    max-width: 100%;
-    min-width:128.7%;
-    min-height:69%; 
+    top: 337%;
+    left: 34.7%;
+    width:40%;
+    height:25%;
+    background: gold; 
    /* -moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999; */
 }
@@ -1104,24 +1167,21 @@ body {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
-    border:2.5px solid green;
+    min-width:29.7%;
+    min-height:40%;
+    border: 2.5px solid black;
 }
 
-.a6 {
+h3 {
     position: absolute;
-    top: 281%;
-    left: 5.7%;
-    min-width:90.5%;
-    min-height:80%; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a6image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid silver;
+    top: 364%;
+    left: 5.5%;
+    font-size: 150%;
+    border: 2px solid black;
+    background-color: black;
+    color: gold;
+    width: 93.2%;
+    padding: 5px;
 }
 
 /* text content */
@@ -1142,17 +1202,16 @@ body {
 /* footer */
 
 h1 {
-    font-size: 160%;
+    font-size: 170%;
     position: absolute;
-    left: 32%;
-    top: 0%;
+    left: 33%;
+    top: 225%;
 }
-
 
 .searchbutton {
     position: absolute;
-    top: 45%;
-    left: 25%;
+    top: 413%;
+    left: 32%;
 }
 
 .searchbutton2 {
@@ -1179,60 +1238,56 @@ h1 {
 
 .footerlinks {
     position: absolute;    
-    text-align: left;
-    width: 80%;
-    top: 67%;
-    left: 15%;
-    float: left;
-    padding: 0px;
+    text-align: center;
+    top: 65%;
+    left: 8%;
+    padding: 10px;
+    width: 90%;
 }
 
 .footerlinks li {
     display: inline;
-    
 }
 
 .footerlinks a {
     text-decoration: none;
     color: white;
     font-size: 10px;
+    width: 70%;
 }
 
-.footerlinks a:hover {
-    color: gold;
+
+
+.footernavlist a {
     text-decoration: none;
-}
-
-.footerlinks li:a:hover {
-    background-color: blue;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    padding: -65px;
+    display: inline;
 }
 
 
 .footernavlist {
     position: absolute;    
     text-align: left;
-    width: 110%;
-    top: -2%;
-    left: -4%;
+    width: 60%;
+    top: -8%;
+    left: 23%;
     float: right;
-    font-size: 4px;
+    padding: 6px;
 }
-
-.footernavlist a {
-}    
-    
     
 .footernavlist li {
     display: inline;
-     padding: 16px;
 }
 
 h8 {
     font-size: 100%;
     position: absolute;
-    width: 48%;
-    top: 392%;
-    left: 27%;
+    width: 25%;
+    top: 299%;
+    left: 42%;
     background-color: black;
     color: gold;
     padding: 10px
@@ -1240,15 +1295,16 @@ h8 {
     
 .signupnews {
     position: absolute;
-    z-index: 2000;
-    top: 405%;
-    left: 17%;
+    z-index: 2001;
+    top: 408%;
+    left: 35%;
     color: gold;
-    font-size: 20px;
+    font-size: 10px;
     border: 2px solid gold;
-    padding: 5px;
+    padding: 2px;
+    width: 38%;
 
 }
     
+
 }
-    

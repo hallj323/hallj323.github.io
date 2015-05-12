@@ -4,7 +4,6 @@ html {
    
 }
 
-
 /*_____To get rid of Nav/search button on web view___*/
 
 		@media (min-width: 769px) and (max-width: 2400px) {
@@ -13,10 +12,7 @@ html {
 				display: none; 
 }
 			
-	
-			
-		}
-
+        }
 /* search bar - begin */
 
 
@@ -48,13 +44,17 @@ input[type="form"] {
     color: black;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
+    position: absolute;
+    top: 138%;
+    left: 44%;
+
 }
 
 form {
     width:200px;
     margin:10px auto;
-    top: -1%;
-    left: 81%;
+    top: 60%;
+    left: 80%;
     position: absolute;
     margin: 10px;
     
@@ -77,6 +77,8 @@ form {
 
 /* search bar - END */
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -86,6 +88,50 @@ body {
     width: 87%; 
 	margin-left:9%;
 	margin-right: 9%;
+}
+
+
+#signup {
+    position: absolute;
+    top: 40%;
+    left: 3.5%;
+    width: 40%;
+}
+
+h1 {
+    font-size: 35px;
+    position: absolute;
+    left: 31%;
+    top: 25%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    top: 84%;
+    padding: 10px;
+    color: red;
+}
+
+.formplace {
+    width: 100%
+}
+
+.submitclass {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: gold;
+}
+
+.formgroup {
+    font-size: 25px;
+    width: 200%;
 }
 
 nav {
@@ -149,7 +195,7 @@ nav:hover .nav-list {
     color: red;
 }
 
-.style {
+.tech {
     color: silver;
 }
 
@@ -157,9 +203,7 @@ nav:hover .nav-list {
     color: green;
 }
 
-.sports li:a:hover {
-    color: red;
-}
+
 
 .nav-list li:first-child {
     background: none;
@@ -189,187 +233,39 @@ nav:hover .nav-list {
 }
 
 
-/* content */
-
-.a1 {
-    position: absolute;
-    top: 26%;
-    left: 5.4%;
-    max-width:50%;
-    margin:0 auto 0 auto;
-    opacity: 10;
-}
-
-
-.lead {
-    max-width: 100%;
-    max-height: 100%;
-    border:2px solid black;
-}
-
-.a2 {
-    position: absolute;
-    top: 26%;
-    left: 59.7%;
-    min-width:29.7%;
-    min-height:40%;
-    max-height: 100%;
-    max-width: 100%;
-    margin:0 auto 0 auto;
-    
-  /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a2image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2px solid red;
-}
-
-.a3 {
-    position: absolute;
-    top: 93%;
-    left: 5.2%;
-    width:50%;
-    height:61%;
-    margin:0 auto 0 auto;
-    max-height: 100%;
-    max-width: 100%;
-    /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a3image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    min-width:29.7%;
-    min-height:40%;
-    border:2px solid lightskyblue;
-}
-
-.a4 {
-    position: absolute;
-    top: 160%;
-    left: 5.1%;
-    width:50%;
-    height:63%;
-    max-height: 100%;
-    max-width: 100%;
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a4image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    min-width:29.7%;
-    min-height:40%;
-    border:2.5px solid black;
-}
-
-.a5 {
-    position: absolute;
-    top: 70%;
-    left: 59.7%;
-    min-width:38.7%;
-    min-height:71%; 
-    max-height: 100%;
-    max-width: 100%;
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a5image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid green;
-}
-
-.a6 {
-    position: absolute;
-    top: 145%;
-    left: 59.7%;
-    min-width:29.2%;
-    min-height:84%;
-    max-height: 100%;
-    max-width: 100%;
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a6image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid silver;
-}
-
-/* text content */
-
-.a1text {
-    position: fixed;
-    top: 82%;
-    left: 16%;
-    float: left;
-    font-size: 20px;
-    z-index: 1002;
-    color: red;
-    border: 2px solid red;
-    padding: 2px;
-    display: inline-block;
-}
 
 /* footer */
 
-h1 {
-    font-size: 160%;
+
+
+
+.sform {
     position: absolute;
-    left: 32%;
-    top: 0%;
+    top: 15%;
+    left: 46%;
+    padding: 0px;
 }
 
-
-.searchbutton {
-    position: absolute;
-    top: 33%;
-    left: 41%;
-}
-
-.searchbutton2 {
-    font-family: 'Montserrat', sans-serif;
-    background-color: black;
-    color: white;
-}
-
-.submitbutton {
-    position: absolute;
-    top: 70%;
-    left: 49.6%;
-}
 
 
 .footerbox {
     position: absolute;
-     top: 249%;
+     top: 120%;
     left: 0%;
     width: 100%;
     height: 30%;
-    background: black;
+    background: black; 
+    
 }
 
 .footerlinks {
     position: absolute;    
     text-align: left;
     width: 100%;
-    top: 0%;
+    top: -8%;
     left: 0%;
     float: left;
-    padding: 10px;
+    padding: 15px;
 }
 
 #footlinks li {
@@ -391,7 +287,6 @@ h1 {
     background-color: blue;
 }
 
-
 .footernavlist a {
     text-decoration: none;
     color: white;
@@ -411,47 +306,34 @@ h1 {
     position: absolute;    
     text-align: left;
     width: 7%;
-    top: -8%;
+    top: 118%;
     left: 92%;
     float: right;
     padding: 5px;
 }
 
-h8 {
-    font-size: 100%;
-    position: absolute;
-    width: 15%;
-    top: 235%;
-    left: 42%;
-    background-color: black;
-    color: gold;
-    padding: 10px
-}
-
 .signupnews {
     position: absolute;
     z-index: 2001;
-    top: 250%;
-    left: 36%;
+    top: 125%;
+    left: 32%;
     color: gold;
-    font-size: 24px;
+    font-size: 34px;
     border: 2px solid gold;
     padding: 5px;
 
 }
 
+
 /********************* media query ipad ******************************/
 
 @media (max-width:768px) {
     
-    
-    
-html {
+ html {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
    
 }
-
 
 
 
@@ -461,7 +343,7 @@ html {
 input[type="form"] {
     
     border: 11px solid gold;
-    width: 310px;
+    width: 210px;
     font-family: 'Montserrat', sans-serif;
     color: teal;
     text-transform: uppercase;
@@ -480,19 +362,25 @@ input[type="form"] {
 }
 
 .searchbutton {
+    display: inline;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: black;
+    width: 103%
     font-family: 'Montserrat', sans-serif;
     background-color: white;
+    position: absolute;
+    top: 138%;
+    left: 45%;
+
 }
 
 form {
     width:200px;
     margin:10px auto;
-    top: -1%;
-    left: 81%;
+    top: 60%;
+    left: 80%;
     position: absolute;
     margin: 10px;
     
@@ -515,6 +403,8 @@ form {
 
 /* search bar - END */
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -526,17 +416,63 @@ body {
 	margin-right: 9%;
 }
 
+
+#signup {
+    position: absolute;
+    top: 40%;
+    left: -13.5%;
+    width: 40%;
+}
+
+h1 {
+    font-size: 35px;
+    position: absolute;
+    left: 11%;
+    top: 25%;
+    border: 3px solid black;
+    padding: 10px;
+    width: 76%
+}
+
+h2 {
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    top: 84%;
+    padding: 10px;
+    color: red;
+}
+
+.formplace {
+    width: 100%
+}
+
+.submitclass {
+    position: absolute;
+    top: 81%;
+    left: 43%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: gold;
+}
+
+.formgroup {
+    font-size: 25px;
+    width: 200%;
+}
+
+nav {
+    position: relative;
+}
+
 .navholder {
     
     width: 100%;
-    z-index: 0;
+    z-index: 100;
     height: 0%;
     float: left;
-    z-index: 2000;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    
+    z-index: 0;
+    margin-bottom: 3%;
 }
 
 #rwdnavbar {
@@ -589,189 +525,69 @@ body {
 }
 
 
+
+.nav-list li:first-child {
+    background: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+
+.nav-list li:a:hover {
+    background-color: blue;
+}
+
 #nbl {
     float: left;
     width: 140px;
     position: absolute;
     top: 20%;
-    left: 0%;
+    left: -10%;
+    z-index: 20001
     
 }
 
 
-/* content */
-
-.a1 {
-    position: absolute;
-    top: 29%;
-    left: 5.4%;
-    max-width:50%;
-    margin:0 auto 0 auto;
-    opacity: 10;
-}
-
-
-.lead {
-    max-width: 100%;
-    max-height: 100%;
-    border:2px solid black;
-}
-
-.a2 {
-    position: absolute;
-    top: 29%;
-    left: 59.7%;
-    min-width:29.7%;
-    min-height:40%;
-    margin:0 auto 0 auto;
-    background: gold;
-  /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a2image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2px solid red;
-}
-
-.a3 {
-    position: absolute;
-    top: 73%;
-    left: 5.2%;
-    width:50%;
-    height:61%;
-    margin:0 auto 0 auto;
-    background: gold; 
-    /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a3image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    min-width:29.7%;
-    min-height:40%;
-    border:2px solid lightskyblue;
-}
-
-.a4 {
-    position: absolute;
-    top: 117%;
-    left: 5.1%;
-    width:50%;
-    height:63%;
-    background: gold; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a4image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    min-width:29.7%;
-    min-height:40%;
-    border:2.5px solid black;
-}
-
-.a5 {
-    position: absolute;
-    top: 57%;
-    left: 59.7%;
-    min-width:38.7%;
-    min-height:49%; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a5image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid green;
-}
-
-.a6 {
-    position: absolute;
-    top: 108%;
-    left: 59.7%;
-    min-width:29.2%;
-    min-height:84%; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a6image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid silver;
-}
-
-/* text content */
-
-.a1text {
-    position: fixed;
-    top: 82%;
-    left: 16%;
-    float: left;
-    font-size: 20px;
-    z-index: 1002;
-    color: red;
-    border: 2px solid red;
-    padding: 2px;
-    display: inline-block;
-}
 
 /* footer */
 
-h1 {
-    font-size: 160%;
+
+
+
+.sform {
     position: absolute;
-    left: 32%;
-    top: 0%;
+    top: 15%;
+    left: 46%;
+    padding: 0px;
 }
 
-
-.searchbutton {
-    position: absolute;
-    top: 46%;
-    left: 41%;
-}
-
-.searchbutton2 {
-    font-family: 'Montserrat', sans-serif;
-    background-color: black;
-    color: white;
-}
-
-.submitbutton {
-    position: absolute;
-    top: 70%;
-    left: 49.6%;
-}
 
 
 .footerbox {
     position: absolute;
-     top: 190%;
+     top: 120%;
     left: 0%;
     width: 100%;
-    height: 32%;
-    background: black;
+    height: 30%;
+    background: black; 
+    
 }
 
 .footerlinks {
     position: absolute;    
     text-align: left;
     width: 100%;
-    top: 0%;
+    top: -8%;
     left: 0%;
     float: left;
-    padding: 10px;
+    padding: 15px;
 }
 
 #footlinks li {
@@ -793,13 +609,10 @@ h1 {
     background-color: blue;
 }
 
-
 .footernavlist a {
     text-decoration: none;
     color: white;
     font-size: 15px;
-    width: 100%;
-    padding: -65px;
 }
 
 .footernavlist a:hover {
@@ -815,33 +628,22 @@ h1 {
     position: absolute;    
     text-align: left;
     width: 7%;
-    top: -8%;
-    left: 88%;
+    top: 118%;
+    left: 90%;
     float: right;
     padding: 5px;
 }
 
-h8 {
-    font-size: 100%;
-    position: absolute;
-    width: 25%;
-    top: 169%;
-    left: 42%;
-    background-color: black;
-    color: gold;
-    padding: 10px
-}
-    
 .signupnews {
     position: absolute;
     z-index: 2001;
-    top: 195%;
-    left: 35%;
+    top: 125%;
+    left: 32%;
     color: gold;
-    font-size: 20px;
+    font-size: 24px;
     border: 2px solid gold;
     padding: 5px;
-
+    width: 48%
 }
 
     /******************************************************************************************************************************************************************/
@@ -851,12 +653,12 @@ h8 {
 @media(max-width:415px) {
     
         
-html {
+   
+ html {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
    
 }
-
 
 
 
@@ -866,7 +668,7 @@ html {
 input[type="form"] {
     
     border: 11px solid gold;
-    width: 310px;
+    width: 210px;
     font-family: 'Montserrat', sans-serif;
     color: teal;
     text-transform: uppercase;
@@ -896,8 +698,8 @@ input[type="form"] {
 form {
     width:200px;
     margin:10px auto;
-    top: -1%;
-    left: 81%;
+    top: 60%;
+    left: 80%;
     position: absolute;
     margin: 10px;
     
@@ -917,8 +719,9 @@ form {
     background-color:#fafafa;
     color:#207cca;
 }
-
 /* search bar - END */
+
+
 
 * {
   box-sizing: border-box;
@@ -931,19 +734,65 @@ body {
 	margin-right: 9%;
 }
 
+
+#signup {
+    position: absolute;
+    top: 37%;
+    left: -27.5%;
+    width: 60%;
+}
+
+h1 {
+    font-size: 15px;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    border: 3px solid black;
+    padding: 5px;
+    width: 62%
+}
+
+h2 {
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    top: 84%;
+    padding: 10px;
+    color: red;
+}
+
+.formplace {
+    width: 110%
+}
+
+.submitclass {
+    position: absolute;
+    top: 81%;
+    left: 40%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: gold;
+}
+
+.formgroup {
+    font-size: 25px;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+}
+
 .navholder {
     
     width: 100%;
     z-index: 100;
     height: 0%;
     float: left;
-    z-index: 2000;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    
+    z-index: 0;
+    margin-bottom: 3%;
 }
-    
+
 
 #rwdnavbar {
     float: left;
@@ -973,6 +822,7 @@ body {
     top: -26%;
     left: -18%;
 }
+
 
 .music {
     color: gold;
@@ -1005,154 +855,23 @@ body {
     width: 100px;
     position: absolute;
     top: -80%;
-    left: 41%;
+    left: 35%;
     
 }
 
 
-/* content */
 
-.a1 {
-    position: absolute;
-    top: 29%;
-    left: 5.4%;
-    max-width:90%;
-    margin:0 auto 0 auto;
-    opacity: 10;
-}
-
-
-.lead {
-    max-width: 100%;
-    max-height: 100%;
-    border:2px solid black;
-}
-
-.a2 {
-    position: absolute;
-    top: 75%;
-    left: 5.4%;
-    min-width:89.7%;
-    min-height:50%;
-    margin:0 auto 0 auto;
-  
-  /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a2image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2px solid red;
-}
-
-.a3 {
-    position: absolute;
-    top: 123%;
-    left: 5.4%;
-    width:90%;
-    height:61%;
-    margin:0 auto 0 auto;
-   
-    /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a3image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    min-width:29.7%;
-    min-height:40%;
-    border:2px solid lightskyblue;
-}
-
-.a4 {
-    position: absolute;
-    top: 168%;
-    left: 5.1%;
-    width:90%;
-    height:41.7%;
-    
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a4image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    min-width:29.7%;
-    min-height:40%;
-    border:2.5px solid black;
-}
-
-.a5 {
-    position: absolute;
-    top: 207%;
-    left: 5.1%;
-    max-height: 100%;
-    max-width: 100%;
-    min-width:128.7%;
-    min-height:69%; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a5image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid green;
-}
-
-.a6 {
-    position: absolute;
-    top: 281%;
-    left: 5.7%;
-    min-width:90.5%;
-    min-height:80%; 
-   /* -moz-box-shadow: 0 0 30px 5px #999;
-    -webkit-box-shadow: 0 0 30px 5px #999; */
-}
-
-.a6image {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    border:2.5px solid silver;
-}
-
-/* text content */
-
-.a1text {
-    position: fixed;
-    top: 82%;
-    left: 16%;
-    float: left;
-    font-size: 20px;
-    z-index: 1002;
-    color: red;
-    border: 2px solid red;
-    padding: 2px;
-    display: inline-block;
-}
 
 /* footer */
 
-h1 {
-    font-size: 160%;
-    position: absolute;
-    left: 32%;
-    top: 0%;
-}
+
 
 
 .searchbutton {
     position: absolute;
-    top: 45%;
-    left: 25%;
+    top: 140%;
+    left: 30%;
+    width: 40%
 }
 
 .searchbutton2 {
@@ -1160,7 +879,7 @@ h1 {
     background-color: black;
     color: white;
 }
-
+    
 .submitbutton {
     position: absolute;
     top: 70%;
@@ -1168,20 +887,22 @@ h1 {
 }
 
 
+
 .footerbox {
     position: absolute;
-     top: 400%;
+     top: 120%;
     left: 0%;
     width: 100%;
-    height: 32%;
-    background: black;
+    height: 40%;
+    background: black; 
+    
 }
 
 .footerlinks {
     position: absolute;    
     text-align: left;
     width: 80%;
-    top: 67%;
+    top: 77%;
     left: 15%;
     float: left;
     padding: 0px;
@@ -1212,7 +933,7 @@ h1 {
     position: absolute;    
     text-align: left;
     width: 110%;
-    top: -2%;
+    top: 121%;
     left: -4%;
     float: right;
     font-size: 4px;
@@ -1227,22 +948,14 @@ h1 {
      padding: 16px;
 }
 
-h8 {
-    font-size: 100%;
-    position: absolute;
-    width: 48%;
-    top: 392%;
-    left: 27%;
-    background-color: black;
-    color: gold;
-    padding: 10px
-}
+
     
 .signupnews {
     position: absolute;
     z-index: 2000;
-    top: 405%;
-    left: 17%;
+    top: 130%;
+    left: 12%;
+    width: 80%;
     color: gold;
     font-size: 20px;
     border: 2px solid gold;
@@ -1251,4 +964,3 @@ h8 {
 }
     
 }
-    
